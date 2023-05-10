@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "381087254019",
+    "project_id": "spendproject-930bc",
+    "storage_bucket": "spendproject-930bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:381087254019:android:3395cd1910eb8b6089f036",
+        "android_client_info": {
+          "package_name": "com.spendbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "381087254019-dbjlc928c0eg6m46k7dcouf7egjdfjj1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoZebp1gTJuXoTGuQ2Zib8vKEvC09eAEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "381087254019-dbjlc928c0eg6m46k7dcouf7egjdfjj1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

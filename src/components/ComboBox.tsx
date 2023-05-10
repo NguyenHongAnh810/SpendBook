@@ -40,6 +40,7 @@ export default function ComboBox({
 
 const styles = StyleSheet.create({
   container: {
+    backgroundColor: 'white',
     flexDirection: 'row',
     borderWidth: 1,
     justifyContent: 'space-between',
