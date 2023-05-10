@@ -4,13 +4,10 @@ import SegmentedControl from '@react-native-segmented-control/segmented-control'
 import {useState} from 'react';
 import {StyleSheet} from 'react-native';
 import {SafeAreaView} from 'react-native';
-import {ItemStatisticalChart} from './ItemStatisticalChart';
 import ComboBox from '../../components/ComboBox';
 import ModalDatePicker from '../../shared/components/modal/ModalDatePicker';
 import moment from 'moment';
-import {Spend, useQuery, useRealm} from '../../services/models/Realm';
-import {NativeModules} from 'react-native';
-import DeviceInfo from 'react-native-device-info';
+import {useRealm} from '../../services/models/Realm';
 import firestore from '@react-native-firebase/firestore';
 
 export default function Statistical() {
@@ -28,8 +25,12 @@ export default function Statistical() {
       .get()
       .then(res => {
         console.log('res', res);
-        res.forEach(documentSnapshot => {
-          console.log('User ID: ', documentSnapshot.id, documentSnapshot.data());
+        const data1 = res.forEach(documentSnapshot => {
+          console.log(
+            'User ID: ',
+            documentSnapshot.id,
+            documentSnapshot.data(),
+          );
         });
       });
   }, []);
